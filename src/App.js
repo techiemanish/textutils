@@ -46,7 +46,7 @@ function App() {
     <Navbar title="TextUtils" mode = {darkMode} toggle={toggleMode}/>
     <Alert alert={alert} />
       <Routes>
-          <Route exact path="/" element={
+          <Route exact path="/textutils" element={
             <TextForm mode = {darkMode} showAlert={showAlert} heading = "Try TextUtils- Word Counter, Character Counter, Remove exta spaces"/>
           }/>
           <Route exact path="/about" element={<About/>}/>
